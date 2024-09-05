@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    margin: 20px auto;
+    max-width: 1700px; /* Set the max-width of the page */
+    padding: 10px 20px;   /* Add some padding to the sides */
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    background-color: #ffffff;
+  }
+  
+  .logo img {
+    width: 100px;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 40px; /* Spacing between the links */
+  }
+  
+  .nav-links a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #ff6347; /* Tomato color on hover */
+  }
+  .parent{
+    margin: 20px auto;
+    max-width: 1700px; 
+    padding: 10px 20px;
+    font-size: xx-large;
+   
+  }
+  .illustrate{
+    display: flex;
+    
+   position: absolute;
+    top: 150px;
+    left: 1200px;
+ 
+  }
+  button{
+    width: 264px;
+    height: 68px;
+    border-radius: 14px;
+    padding: 20px 35px 20px 35px;
+    gap: 10px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+  }
+  .logotypes{
+    display: flex;
+   
+    justify-content: space-evenly;
+   
+  }
+  
